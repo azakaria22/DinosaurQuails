@@ -3,6 +3,7 @@ import Nav from './Nav.jsx';
 import SelectBar from './SelectBar.jsx';
 import JobList from './JobList.jsx';
 import LoginSignUp from './LoginSignUp.jsx';
+import Logout from './Logout.jsx';
 import axios from 'axios';
 
 class App extends Component {

@@ -9,15 +9,18 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import withMobileDialog from '@material-ui/core/withMobileDialog';
 
 class ResponsiveDialog extends React.Component {
-  state = {
-    open: false,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      open: false
+    };
+  }
 
-  handleClickOpen = () => {
+  handleClickOpen() {
     this.setState({ open: true });
   };
 
-  handleClose = () => {
+  handleClose() {
     this.setState({ open: false });
   };
 
